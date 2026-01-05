@@ -1,4 +1,6 @@
-import React from 'react';
+import image01 from '../../assets/image/image-3.jpg';
+import image02 from '../../assets/image/Image02.jpg'
+import image03 from '../../assets/image/Image01.jpg'
 
 const ChoiseSection = () => {
     return (
@@ -19,54 +21,46 @@ const ChoiseSection = () => {
                 <div className="card bg-base-100 w-96 shadow-sm items-center">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="Shoes" />
+                            src={image03}
+                            alt="Image" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">
-                            Card Title
-                            <div className="badge badge-secondary">NEW</div>
+                        <h2 className="text-xs text-gray-500 uppercase font-bold">
+                            Design
                         </h2>
-                        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                        <div className="card-actions justify-end">
-                            <div className="badge badge-outline">Fashion</div>
-                            <div className="badge badge-outline">Products</div>
+                        <p className='text-xl font-semibold font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, possimus.</p>
+                        <div>
+                            <p className='font-serif'>27 Jun 2025</p>
                         </div>
                     </div>
                 </div>
                 <div className="card bg-base-100 w-96 shadow-sm">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="Shoes" />
+                            src={image01} alt="Image" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">
-                            Card Title
-                            <div className="badge badge-secondary">NEW</div>
+                        <h2 className="text-xs text-gray-500 uppercase font-bold">
+                            Design
                         </h2>
-                        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                        <div className="card-actions justify-end">
-                            <div className="badge badge-outline">Fashion</div>
-                            <div className="badge badge-outline">Products</div>
+                        <p className='text-xl font-semibold font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, possimus.</p>
+                        <div>
+                            <p className='font-serif'>27 Jun 2025</p>
                         </div>
                     </div>
                 </div>
                 <div className="card bg-base-100 w-96 shadow-sm">
                     <figure>
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                            alt="Shoes" />
+                            src={image02} alt="Image" />
                     </figure>
                     <div className="card-body">
-                        <h2 className="card-title">
-                            Card Title
-                            <div className="badge badge-secondary">NEW</div>
+                        <h2 className="text-xs text-gray-500 uppercase font-bold">
+                            Design
                         </h2>
-                        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                        <div className="card-actions justify-end">
-                            <div className="badge badge-outline">Fashion</div>
-                            <div className="badge badge-outline">Products</div>
+                        <p className='text-xl font-semibold font-serif'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, possimus.</p>
+                        <div>
+                            <p className='font-serif'>27 Jun 2025</p>
                         </div>
                     </div>
                 </div>
