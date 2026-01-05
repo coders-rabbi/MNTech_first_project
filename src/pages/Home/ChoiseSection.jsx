@@ -6,13 +6,13 @@ const ChoiseSection = () => {
     return (
         <div className=' '>
 
-            <div className='flex justify-center items-center text-center mb-10 mt-14'>
-                <hr className=' bg-amber-500 h-3.5 text-3xl' />
+            <div className='flex justify-center items-center gap-4 text-center mb-10 mt-14'>
+                <hr className='w-[35%] bg-gray-200 h-1 text-3xl border-0' />
                 <div>
                     <h1 className='text-4xl font-bold font-serif'>Editor's Choice</h1>
                     <p className='font-serif text-gray-500'>Articles of The Day</p>
                 </div>
-                <hr className=' bg-amber-500 h-3.5 text-3xl' />
+                <hr className='w-[35%]  bg-gray-200 h-1 border-0 text-3xl' />
             </div>
 
             {/* Card items */}
@@ -64,6 +64,10 @@ const ChoiseSection = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <div className='mt-5 flex justify-items-center justify-center'>
+                <button className='btn btn-warning transition-discrete'>Videw More</button>
             </div>
         </div>
     );
